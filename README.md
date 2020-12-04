@@ -1,3 +1,5 @@
+Modified reissue script for Big Sur. WARNING Needs additional testing.
+
 Copyright (c) 2010, JAMF Software, LLC. All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
