@@ -108,7 +108,7 @@ userName=$(/usr/bin/stat -f%Su /dev/console)
 userNameUUID=$(dscl . -read /Users/$userName/ GeneratedUID | awk '{print $2}')
 
 ## Get the OS version
-OS=$(/usr/bin/sw_vers -buildVersion | awk -F 'B' '{print $1}')
+OS=$(/usr/bin/sw_vers -buildVersion | awk '{print substr($0,0,2)}')
 
 ## This first user check sees if the logged in account is already authorized with FileVault 2
 userCheck=`fdesetup list | awk -v usrN="$userNameUUID" -F, 'match($0, usrN) {print $1}'`
