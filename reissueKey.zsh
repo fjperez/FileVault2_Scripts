@@ -87,7 +87,7 @@ fi
 if [ ! -z "$6" ]; then
   haltMsg="$6"
 else
-  haltMsg="Please Contact LAITS for Further assistance."
+  haltMsg="Please Contact IT for Further assistance."
 fi
 
 ## Branding Image Check
