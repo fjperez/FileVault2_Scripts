@@ -1,4 +1,4 @@
-Modified reissue script for Big Sur. WARNING Needs additional testing.
+Modified Jamf's reissue key script to work in Big Sur. WARNING Needs additional testing; use at your own risk.
 
 Copyright (c) 2010, JAMF Software, LLC. All rights reserved.
 
